@@ -1,0 +1,49 @@
+* {box-sizing: border-box}
+
+.headerpath{
+    width: 100%;
+    background-color:#004953;
+    height: 2cm;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+.headerpath a{
+    float: left;
+    display: block;
+    color: white;
+    padding: 14px 20px;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 6cm;
+}
+.headerpath a:hover {
+    color: black;
+}
+body.home{
+    background-image: url(https://cdn.hipwallpaper.com/i/23/16/Otr29I.jpg);
+    background-size: cover;
+}
+body.foundingFathers, body.viewarticles{
+    background-color: beige;
+}
+div.transbox {
+  margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+div.transbox h4 {
+  margin: 2%;
+  font-weight: bold;
+  color: #000000;
+}
+.btn{
+  background: green;
+} 
+.vid{
+  float: left;
+  position: absolute;
+  margin-left: 800pt;
+}
